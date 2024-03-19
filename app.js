@@ -20,7 +20,7 @@ const mongoDB =
   process.env.USERNAME +
   ":" +
   process.env.SECRET +
-  "@odin.q4mqzme.mongodb.net/local_library?retryWrites=true&w=majority&appName=Odin";
+  "@cluster0.wl5n8fg.mongodb.net/local_library?retryWrites=true&w=majority&appName=Odin";
 
 main().catch((err) => console.log(err));
 async function main() {
